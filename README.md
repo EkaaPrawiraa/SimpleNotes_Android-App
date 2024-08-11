@@ -75,7 +75,7 @@ KMP is more efficient for processing long texts with complex patterns, while Boy
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
     <div style="margin: 10px;">
-        <img src="img/Screenshot_20240812_060114.png" alt="Homepage" style="width: 200px; height: auto;">
+        <img src="img/Screenshot_20240812_061438.png" alt="Homepage" style="width: 200px; height: auto;">
         <p>Homepage</p>
     </div>
     <div style="margin: 10px;">
