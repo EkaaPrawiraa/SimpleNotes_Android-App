@@ -13,8 +13,12 @@ The Simple Notes application is a simple note-taking app that allows users to cr
    - Select the note you want to edit from the list of notes.
    - Modify the required information.
    - Click the "Save" button to update the note.
+3. **Delete a note:**
+   - Long click the note you want to delete from the list of notes.
+   - You still can undo the deletion for several seconds if you click the "undo" button.
 
-3. **Import Notes from Excel:**
+
+4. **Import Notes from Excel:**
    - Click the "Add" button or select the note you want to edit.
    - Click the "Import File" button.
    - Select the Excel file containing the notes.
@@ -68,8 +72,15 @@ KMP is more efficient for processing long texts with complex patterns, while Boy
 
 ## Application Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
+![alt text](image-3.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+
 
 ## Minimum Device Specifications
 
