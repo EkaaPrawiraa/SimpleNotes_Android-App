@@ -73,33 +73,45 @@ KMP is more efficient for processing long texts with complex patterns, while Boy
 ## Application Screenshots
 
 
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060114.png" alt="Homepage" style="width: 200px; height: auto;">
+        <p>Homepage</p>
+    </div>
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060238.png" alt="Sorting Feature" style="width: 200px; height: auto;">
+        <p>Sorting Feature</p>
+    </div>
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060306.png" alt="Filtering Feature" style="width: 200px; height: auto;">
+        <p>Filtering Feature</p>
+    </div>
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060337.png" alt="Searching Feature" style="width: 200px; height: auto;">
+        <p>Searching Feature</p>
+    </div>
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060349.png" alt="Settings Page" style="width: 200px; height: auto;">
+        <p>Settings Page</p>
+    </div>
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060403.png" alt="Deletion & Undo Feature" style="width: 200px; height: auto;">
+        <p>Deletion & Undo Feature</p>
+    </div>
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060413.png" alt="Add & Edit Note Page" style="width: 200px; height: auto;">
+        <p>Add & Edit Note Page</p>
+    </div>
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060423.png" alt="Import File Feature" style="width: 200px; height: auto;">
+        <p>Import File Feature</p>
+    </div>
+    <div style="margin: 10px;">
+        <img src="img/Screenshot_20240812_060434.png" alt="Imported File to Note" style="width: 200px; height: auto;">
+        <p>Imported File to Note</p>
+    </div>
+</div>
 
-### Homepage
-![Homepage](img/Screenshot_20240812_060114.png)
-
-### Sorting Feature
-![Sorting Feature](img/Screenshot_20240812_060238.png)
-
-### Filtering Feature
-![Filtering Feature](img/Screenshot_20240812_060306.png)
-
-### Searching Feature
-![Searching Feature](img/Screenshot_20240812_060337.png)
-
-### Settings Page
-![Settings Page](img/Screenshot_20240812_060349.png)
-
-### Deletion & Undo Feature
-![Deletion & Undo Feature](img/Screenshot_20240812_060403.png)
-
-### Add & Edit Note Page
-![Add & Edit Note Page](img/Screenshot_20240812_060413.png)
-
-### Import File Feature
-![Import File Feature](img/Screenshot_20240812_060423.png)
-
-### Imported File to Note
-![Imported File to Note](img/Screenshot_20240812_060434.png)
 
 
 
