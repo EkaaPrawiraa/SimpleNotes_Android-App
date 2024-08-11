@@ -73,16 +73,34 @@ KMP is more efficient for processing long texts with complex patterns, while Boy
 ## Application Screenshots
 
 
-![alt text](img/Screenshot_20240812_060114.png)
-![alt text](img/Screenshot_20240812_060238.png)
-![alt text](img/Screenshot_20240812_060306.png)
-![alt text](img/Screenshot_20240812_060318.png)
-![alt text](img/Screenshot_20240812_060337.png)
-![alt text](img/Screenshot_20240812_060349.png)
-![alt text](img/Screenshot_20240812_060403.png)
-![alt text](img/Screenshot_20240812_060413.png)
-![alt text](img/Screenshot_20240812_060423.png)
-![alt text](img/Screenshot_20240812_060434.png)
+
+### Homepage
+![Homepage](img/Screenshot_20240812_060114.png)
+
+### Sorting Feature
+![Sorting Feature](img/Screenshot_20240812_060238.png)
+
+### Filtering Feature
+![Filtering Feature](img/Screenshot_20240812_060306.png)
+
+### Searching Feature
+![Searching Feature](img/Screenshot_20240812_060337.png)
+
+### Settings Page
+![Settings Page](img/Screenshot_20240812_060349.png)
+
+### Deletion & Undo Feature
+![Deletion & Undo Feature](img/Screenshot_20240812_060403.png)
+
+### Add & Edit Note Page
+![Add & Edit Note Page](img/Screenshot_20240812_060413.png)
+
+### Import File Feature
+![Import File Feature](img/Screenshot_20240812_060423.png)
+
+### Imported File to Note
+![Imported File to Note](img/Screenshot_20240812_060434.png)
+
 
 
 ## Minimum Device Specifications
