@@ -15,12 +15,20 @@ The Simple Notes application is a simple note-taking app that allows users to cr
    - Click the "Save" button to update the note.
 
 3. **Import Notes from Excel:**
+   - Click the "Add" button or select the note you want to edit.
    - Click the "Import File" button.
    - Select the Excel file containing the notes.
    - The notes will be imported and displayed in the appropriate fields.
+     ```bash
+     The first cell will be the "Title"
+     The second cell will be the "Category"
+     The third cell will be the "Content"
+      ```
 
-4. **Search for Notes:**
+5. **Search for Notes:**
    - Use the search feature to find notes based on title or content.
+6. **Filter for Notes:**
+   - Use the filter feature to filter notes base on category.
 
 ## Sorting Algorithm Selection
 
