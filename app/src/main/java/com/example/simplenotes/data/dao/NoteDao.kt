@@ -10,7 +10,7 @@ import androidx.room.Update
 
 @Dao
 interface NoteDao {
-    @Query( "Select * from notes order by date desc")
+    @Query( "Select * from notes")
     fun getAllNotes(): Flow<List<Note>>
     @Insert
     suspend fun insertNote(note: Note)

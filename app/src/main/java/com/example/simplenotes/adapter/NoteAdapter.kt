@@ -37,6 +37,7 @@ class NoteAdapter(private val mNotes:List<Note>,private val listener: OnNoteClic
             binding.apply {
                 titleNote.text = note.title
                 contentNote.text = note.content
+                categoryNote.text = note.category
                 val formatter = SimpleDateFormat("dd/MM/yyyy")
                 dateNote.text = formatter.format(note.date)
             }
@@ -58,4 +59,8 @@ class NoteAdapter(private val mNotes:List<Note>,private val listener: OnNoteClic
 
         }
     }
+    fun updateNotes(newNotes: List<Note>) {
+        notifyDataSetChanged() // Beritahu adapter bahwa data telah berubah
+    }
+
 }

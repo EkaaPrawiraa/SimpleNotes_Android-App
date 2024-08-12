@@ -10,15 +10,17 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="Title"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
         style="@style/TextAppearance.AppCompat.Title"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/date_created" />
 
     <EditText
         android:id="@+id/content_edit"
@@ -26,6 +28,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="textMultiLine"
@@ -35,7 +38,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_edit" />
+        app:layout_constraintTop_toBottomOf="@+id/category_edit"
+         />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/save_btn"
@@ -48,5 +52,62 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_check" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/import_file_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_xls"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_xls" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/export_file_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_export"
+        app:layout_constraintBottom_toTopOf="@id/import_file_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_export" />
+
+
+    <EditText
+        android:id="@+id/category_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:inputType="text"
+        android:textSize="12sp"
+        android:ems="10"
+        android:hint="Note Category"
+        android:textColor="@color/gray"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_edit"
+        />
+
+    <TextView
+        android:id="@+id/date_created"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:hint="date created"
+        android:ems="10"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.simplenotes"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -63,6 +63,7 @@ dependencies {
     implementation(libs.google.material)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.preference)
     kapt("com.google.dagger:hilt-android-compiler:2.48")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -88,14 +89,11 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.lifecycle:lifecycle-common:2.6.1")
+    implementation ("org.apache.poi:poi:5.2.3")
+    implementation ("org.apache.poi:poi-ooxml:5.2.3")
+    implementation ("org.apache.commons:commons-collections4:4.4")
 }
 
 kapt {
     correctErrorTypes = true
 }
-//configurations.all {
-//    resolutionStrategy {
-//        force ("androidx.lifecycle:lifecycle-common:2.6.1")
-//        force ("androidx.activity:activity:1.8.0")
-//    }
-//}
