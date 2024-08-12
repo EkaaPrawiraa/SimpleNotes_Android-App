@@ -28,10 +28,22 @@ The Simple Notes application is a simple note-taking app that allows users to cr
      The second cell will be the "Category"
      The third cell will be the "Content"
       ```
+5. **Export Notes to Excel:**
+   - Select the note you want to export from the list of notes.
+   - Click the "Export File" button.
+   - The notes will be exported and saved in the Documents directory with name "TitleNote_dateCreated.xls".
+     ```bash
+     The first cell will be the "Title"
+     The second cell will be the "Category"
+     The third cell will be the "Date the notes created"
+     The fourth cell will be the "Date the notes recently updated"
+     The fifth cell will be the "Content"
+      ```
+   
 
-5. **Search for Notes:**
+7. **Search for Notes:**
    - Use the search feature to find notes based on title or content.
-6. **Filter for Notes:**
+8. **Filter for Notes:**
    - Use the filter feature to filter notes base on category.
 
 ## Sorting Algorithm Selection
@@ -99,7 +111,7 @@ KMP is more efficient for processing long texts with complex patterns, while Boy
         <p>Deletion & Undo Feature</p>
     </div>
     <div style="margin: 10px;">
-        <img src="img/Screenshot_20240812_060413.png" alt="Add & Edit Note Page" style="width: 200px; height: auto;">
+        <img src="img/Screenshot_20240812_183912.png" alt="Add & Edit Note Page" style="width: 200px; height: auto;">
         <p>Add & Edit Note Page</p>
     </div>
     <div style="margin: 10px;">
