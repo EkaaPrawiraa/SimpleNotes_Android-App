@@ -133,3 +133,7 @@ KMP is more efficient for processing long texts with complex patterns, while Boy
 - **RAM:** Minimum 2 GB
 - **Storage:** Minimum 50 MB of free space
 - **Processor:** Dual-core 1.2 GHz or higher
+
+## Study Reference
+[!Watch Video](https://youtube.com/playlist?list=PLMP_OkCD54dPGjJB3sDffM6AM_UsAzcOv&si=YrOLTJTbsut_GjpQ)
+
